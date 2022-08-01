@@ -1,0 +1,9 @@
+Installation: 
+conda env create -f environment.yml -n YourEnvironmentName
+
+
+RUN :
+conda env list     
+conda activate YourEnvironmentName
+cd src
+python run_simulation.py
